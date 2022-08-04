@@ -1,0 +1,22 @@
+# version del  yml
+version: '3.3'
+
+services:
+
+  contenedor_web_node:
+    build: .
+    ports:
+      - 1234:1234
+    volumes:
+      - ./:/usr/src/app/
+
+  contenedor_postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=db_employee
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=admin123
+    ports:
+      - 5432:5432
+    volumes:
+      - ./volumes/postgres_data:/var/lib/postgresql/data
