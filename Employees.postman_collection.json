@@ -35,7 +35,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:1234/api/department",
+							"raw": "http://localhost:1234/api/department/2003",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -43,7 +43,8 @@
 							"port": "1234",
 							"path": [
 								"api",
-								"department"
+								"department",
+								"2003"
 							]
 						}
 					},
@@ -182,7 +183,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\": 1001,\r\n    \"nif\": \"4354343\",\r\n    \"nombre\": \"Tomas\",\r\n    \"apellido1\": \"Giraldo\",\r\n    \"apellido2\": \"Perez\",\r\n    \"codigo_departamento\": 2001\r\n}",
+							"raw": "{\r\n    \"codigo\": 1001,\r\n    \"nif\": \"4354343\",\r\n    \"nombre\": \"Tomas\",\r\n    \"apellido1\": \"Giraldo\",\r\n    \"apellido2\": \"Perez\",\r\n    \"codigo_departamento\": 2003\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -211,7 +212,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"codigo\": 1001,\r\n    \"nif\": \"4354343\",\r\n    \"nombre\": \"Tomas Prueba\",\r\n    \"apellido1\": \"Giraldo\",\r\n    \"apellido2\": \"Perez\",\r\n    \"codigo_departamento\": 2001\r\n}",
+							"raw": "{\r\n    \"codigo\": 1001,\r\n    \"nif\": \"4354343\",\r\n    \"nombre\": \"Tomas Prueba\",\r\n    \"apellido1\": \"Giraldo\",\r\n    \"apellido2\": \"Perez\",\r\n    \"codigo_departamento\": 2003\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

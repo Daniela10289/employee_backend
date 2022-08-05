@@ -90,6 +90,8 @@ El archivo postman "Employees.postman_collection.json" cuenta con la estructura 
 
 Se recomienda primero crear departamentos y posteriormente empleados, con el fin de tener códigos de departamentos válidos al momento de crear empleados.
 
+Nota: Recuerde, al crear un empleado es necesario asignar un codigo de departamento valido y existente.
+
 ## Capturas de pantalla del funcionamiento de cada uno de los endpoints
 
 | Nombre endpoint | Captura del resultado |
