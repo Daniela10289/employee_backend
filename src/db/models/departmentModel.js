@@ -7,7 +7,7 @@ const DepartmentSchema = {
     allowNull: false,
     autoIncrement: false,
     primaryKey: true,
-    type: DataTypes.INTEGER()
+    type: DataTypes.INTEGER 
   },
   nombre: {
     allowNull: false,
