@@ -9,7 +9,7 @@ const EmployeeSchema = {
     allowNull: false,
     autoIncrement: false,
     primaryKey: true,
-    type: DataTypes.INTEGER(10)
+    type: DataTypes.INTEGER()
   },
   nif: {
     allowNull: false,
@@ -29,7 +29,7 @@ const EmployeeSchema = {
   },
   codigo_departamento: {
     allowNull: false,
-    type: DataTypes.INTEGER(10),
+    type: DataTypes.INTEGER(),
     references: {
       model: DEPARTMENT_TABLE,
       key: 'codigo'
